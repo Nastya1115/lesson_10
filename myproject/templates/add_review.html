@@ -1,0 +1,13 @@
+
+<form method="POST">
+    {%csrf_token%}
+
+    <label for="title-field">Title:</label>
+    <input type="text" id="title-field" name="title-field">
+    <br>
+    <label for="text-field">Text:</label>
+    <input type="text" id="text-field" name="text-field">
+    <br>
+    <button type="submit">Post review</button>
+    
+</form>
